@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "PatrocinioZoneProyecto": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
