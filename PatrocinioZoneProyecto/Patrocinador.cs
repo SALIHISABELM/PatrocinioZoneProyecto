@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PatrocinioZoneProyecto
 {
-    public class Patrocinador
+    public class Patrocinador : Usuario
     {
         List<Club> sponsoreados = new List<Club>();
 
