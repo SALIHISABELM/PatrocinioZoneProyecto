@@ -6,15 +6,22 @@ using System.Threading.Tasks;
 
 namespace PatrocinioZoneProyecto
 {
-    public class Usuario
+    public abstract class Usuario
     {
+        
+public string Id { get; set; }
+        
+        public Usuario(string id)
+        {
+            Id = id;
+        }
+        
 
-
-
-        //Posibles Métodos
-        //login()
-        //logout()
-        //actualizarPerfil()
-
+        //Posibles Métodos abstractos
+        //login();
+        //logout();
+        //actualizarPerfil();
+        //mostrarInformacion();
+        //getters();
     }
 }
